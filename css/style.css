@@ -1,0 +1,157 @@
+
+@font-face {
+    src: url('../fonts/Subway-Six-Inch-Office.woff');
+    src: url('../fonts/Subway-Footlong-Office.woff');
+    font-family: 'Subway';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Subway';
+  font-size: 16px;
+  color: #888;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a,a:hover {
+  text-decoration: none;
+}
+
+a,a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+.sub_container{
+    width: 1028px;
+    display: block;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.banner_wrap{
+  margin-bottom:20px;
+  display: block;
+}
+.text_detail{
+
+}
+.text_title {
+    margin: 0;
+    color: #d8a92a;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.text_sub_title {
+    margin: 0;
+    color: #d17938;
+    font-size:16px;
+    margin-bottom:15px;
+}
+.ul_list {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #060606;
+    font-size: 14px;
+}
+.ul_list ul{
+  float: left;
+  width: 100%;
+  list-style-type: none;
+}
+.ul_list ul li{
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.ul_list ul li:last-child {
+ margin-bottom: 0px;
+}
+.li_a{
+  width:65%;
+  float: left;
+}
+.li_b{
+  width:35%;
+  text-align: right;
+  float: right;
+}
+
+.ul_list ul li span a{
+    color: inherit;
+}
+.ul_list ul li span a:hover{
+    color:#64006c;
+}
+.padding_off{
+  padding: 0px;
+}
+.social_ul{
+  float: left;
+  width: 100%;
+  color: #000;
+  margin-bottom: 10px;
+}
+.social_ul ul{
+  list-style-type: none;
+  
+}
+.social_ul ul li{
+  float: left;
+  width: 100%;
+  margin-bottom:1px;
+  
+}
+.social_ul ul li:last-child{
+  margin-bottom:0px;
+  
+}
+.social_ul ul li a{
+  color: inherit;
+  
+}
+.social_ul ul li a:hover{
+  color: #f1b800;
+  
+}
+.social_ul ul li a img {
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.restrictions{
+    font-size: 14px;
+    line-height: 14px;
+    color: #383838;
+    float: left;
+    width: 100%;
+}
+.logo_wrap {
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+.nearest_loc {
+    color: #f1b800;
+    font-size: 30px;
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    margin:100px 0 15px 0;
+}

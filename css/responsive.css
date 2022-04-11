@@ -1,0 +1,33 @@
+@media(max-width: 1198px) {
+	 .sub_container{
+    width:80%;
+  }
+}
+
+@media (max-width: 992px) {
+  .sub_container{
+    width: 100%;
+  }
+   .nearest_loc {
+    margin:20px 0 15px 0;
+}
+ 
+}
+
+@media(max-width: 767px) {
+ .nearest_loc {
+    margin:20px 0 15px 0;
+}
+.li_a {
+    width: 58%;
+}
+.li_b {
+    width: 42%;
+}
+
+.li_b_cus{
+  width: 100%;
+}
+
+
+}
